@@ -6,9 +6,20 @@ body {
 
 }
 
+.primary-text{
+color: #FD6E0A;
+
+}
+
+.btn-primary {
+  border-radius: 5px;
+  background-color: #FD6E0A;
 
 
+  font-weight: 700;
 
+
+}
 /* nav related styles */
 
 nav{
@@ -25,4 +36,25 @@ font-size: 45px;
 font-weight: 800;
 line-height: normal;
 
+
+
 }
+
+nav > ul{
+
+  display: flex;
+}
+
+nav li{
+list-style: none;
+margin-right: 50px;
+
+}
+
+
+nav a{
+  text-decoration: none;
+  color: #474747;
+}
+
+
