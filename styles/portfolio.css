@@ -7,7 +7,6 @@ body {
   font-variation-settings:
     "wdth" 100;
     font-optical-sizing: auto;
-
 }
 
 .primary-text{
@@ -23,8 +22,6 @@ color: white;
 border: 0;
   font-weight: 700;
   padding: 15px 30px;
-
-
 }
 /* nav related styles */
 
@@ -34,7 +31,7 @@ nav{
   align-items: center;
 
   justify-content: space-between;
-
+  margin: 0 200px;
 }
 
 
@@ -68,4 +65,16 @@ nav a{
   color: #474747;
 }
 
+
+/* Header styles starts here */
+
+.header {
+background-color: #FFF8F3;
+
+}
+
+.banner{
+  padding: 30px 30px 30px 150px ;
+  display: flex;
+}
 
