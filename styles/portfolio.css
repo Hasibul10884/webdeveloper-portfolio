@@ -116,7 +116,10 @@ background-position: bottom right;
 
 /* main section styles */
 
-
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 
 
 
@@ -126,6 +129,7 @@ background-position: bottom right;
   padding: 130px;
   border-radius: 10px;
   background: #FFF8F3;
+  margin: 130px 0;
 }
 
 
@@ -143,4 +147,16 @@ background-position: bottom right;
   color: #757575;
   text-align: center;
   font-size: 18px;
+}
+
+.info-container{
+
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.about-info{
+
+  text-align: center;
 }
